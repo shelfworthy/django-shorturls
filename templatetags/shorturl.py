@@ -5,7 +5,7 @@ from django.core import urlresolvers
 from django.utils.safestring import mark_safe
 
 from shorturls.baseconv import base62
-from shelfurls.functions import shortify
+from shorturls.functions import shortify
 
 class ShortURL(template.Node):
     @classmethod
